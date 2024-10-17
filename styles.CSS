@@ -1,0 +1,132 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body Style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cfe9e9;
+    color: #10123a;
+    line-height: 2;
+}
+/* Header Style */
+header {
+    display: flex;
+    background-color: #10123a;
+    text-align: center;
+    color: orange;
+    justify-content: space-between; /* Distribute space evenly between items */
+    align-items: center; /* Center elements vertically */
+}
+.logo {
+    width: 150px;
+    height: auto;
+    vertical-align: middle; /* Aligns the image with the text */
+    left: 10px;
+    margin-right: 20px; /* Add some spacing between the logo and other elements */
+    border-radius: 75px;
+}
+header h1 {
+    font-size: 50px;
+    margin-right:auto ;
+}
+nav ul {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display the list items in a row */
+    padding: 0;  /* Remove default padding */
+    gap: 35px; /* Space between the navigation items */
+    margin-right: 40px;
+    background-color: transparent;
+
+}
+nav ul li {
+    margin: 0px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: #cfe9e9; /* Red color for hover */
+}
+/* Section Styles */
+section {
+    padding: 3rem;
+    background-color: #ffffff;
+    margin: 1rem 0;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px #10123a(0, 0, 0, 0.1);
+}
+section h2 {
+    color: orange; /* Yellow color */
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+ul li {
+    margin: 0.5rem 0;
+}
+
+/* Contact Section */
+#contact ul {
+    padding-left: 0rem;
+    text-align: center;
+    border-radius: 10px;
+    
+    padding: 10px;
+}
+
+#contact ul li {
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+/* Footer Style */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #10123a;
+    color: orange;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.about-button {
+    border: 10px solid;
+    border-radius: 5px;
+    color: orange;
+    background-color:#ffffff;;
+}
+.skills-button {
+    border: 10px solid;
+    border-radius: 5px;
+    color: orange;
+    background-color:#ffffff;
+}
+.projects-button {
+    border: 10px solid;
+    border-radius: 5px;
+    color: orange;
+    background-color:#ffffff;
+}
+.services-button {
+    border: 10px solid;
+    border-radius: 5px;
+    color: orange;
+    background-color:#ffffff;
+}
+.contact-button {
+    border: 10px solid;
+    border-radius: 5px;
+    color: orange;
+    background-color:#ffffff;
+}
+.about-button :hover {
+    opacity: 2s;
+}
